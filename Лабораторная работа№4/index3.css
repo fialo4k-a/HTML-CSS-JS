@@ -1,0 +1,62 @@
+div{
+    margin-top: 200px;
+    background-color: lightblue;
+}
+
+header{
+    background: chartreuse;
+    color: red;
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#tb{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr, td{
+    border: 1px solid ;
+    height: 30px;
+    width: 60px;
+}
+
+.first{
+    width: 30px;
+    height: 30px;
+    background-color: red;;
+}
+
+.first1{
+width: 30px;
+height: 60px;
+background-color: red;;
+}
+
+.last:last-child{
+    background: red;
+}
+
+.last:first-child{
+    background: red;;
+}
+
+
+.one td:nth-child(even){
+    background: black;
+}
+
+.one  td:nth-child(odd){
+    background: white;
+}
+
+.two td:nth-child(even){
+    background: white;
+}
+
+.two td:nth-child(odd){
+    background: black;
+}
+

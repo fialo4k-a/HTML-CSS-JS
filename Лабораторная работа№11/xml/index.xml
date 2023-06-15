@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/index.css"?>
+
+<contact></contact>
+    <name>Petr</name>
+    <surname>Ivanov</surname>
+    <country>Russia</country>
+    <city>Moscow</city>
+    <address>Krasnopresnenskaya emb., 12-17</address>
+    <post>frontend-developer</post>
+    <age>35</age>
+</contact>

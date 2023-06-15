@@ -1,0 +1,53 @@
+@font-face {
+    src: url("../font/MullerBlack.ttf");
+    font-family: MullerBlack;
+}
+
+@font-face {
+    src: url("../font/MullerBold.ttf");
+    font-family: MullerBold;
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    padding-bottom: 100px;
+    background: blue;
+}
+
+#main .ul {
+    display: inline-block;
+    color: yellow;
+    padding: 20px 20px 0 5px;
+}
+
+body {
+    background-color: orange;
+}
+
+#pop {
+    background-color: blue;
+    color: aqua;
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
+    margin: 0;
+}
+
+.lil {
+    color: gray;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#header h1 {
+    margin: 0;
+    color: wheat;
+    font-family: MullerBold , sans-serif;
+}
+
+#header #header-container .lil {
+    color: red;
+    font-family: MullerBlack , sans-serif ;
+}

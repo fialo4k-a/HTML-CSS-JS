@@ -1,0 +1,48 @@
+body{
+background-color: powderblue;
+}
+
+tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px 4px blue;
+    font-size: 40px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+header{
+    background-color: palegoldenrod;
+}
+
+ table{
+     border-collapse: collapse;
+}
+
+td{
+    padding: 5px;
+}
+
+#tr{
+    background-color: coral;
+}
+
+.td1{
+  background-color: aquamarine;  
+}
+
+.none{
+    text-decoration: underline;
+}
+
+/*#t{
+    font-weight: bold;
+    font-size: 20px;
+}
+*/
+#trlast :last-child{
+    empty-cells: hide;
+}

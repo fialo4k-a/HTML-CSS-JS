@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(blue, yellow,green, orange,red);
+}
+
+img{
+    height: 200px;
+    border-radius: 10%;
+
+}
+
+figcaption{
+    background-color: lightslategrey;
+    color: lightyellow;
+    font-style: italic;
+    padding: 4px;
+    margin-top: 0;
+    text-align: right;
+}
+
+figcaption, img{
+    width: 250px;
+}
+
+figure{
+    display: inline-block;
+}
+
+#main{
+    border: 3px solid red;
+}
+
+#main>div{
+    margin-left: 70px;
+}

@@ -1,0 +1,53 @@
+h1, h2, h3{
+
+    color: purple;
+    font-family: Monotype Corsiva;
+}
+
+.first {
+    color: red; 
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 18pt;
+}
+.second{
+    color: yellow;
+    font-family: 'Times New Roman', sans-serif ;
+    font-size: 20pt;
+}
+
+.third{
+    color: green;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 22pt;
+}
+
+#td1 td{
+ color:red;
+ font-family: 'Times New Roman', sans-serif;
+ font-size: 20px;
+}
+
+#td2 td{
+    color: green;
+    font-family: cursive, sans-serif;
+    font-size: 18px;
+}
+
+#td3 td{
+    color: gray;
+    font-family: fantasy, sans-serif;
+    font-size: 16px;
+}
+
+#td4 td{
+ color: indigo;
+ font-family: monospace, sans-serif;
+ font-size: 14px;
+}
+
+#td5 td{
+    color: lightcoral;
+    font-family: 'Courier New', sans-serif;
+    font-size: 15px;
+}
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href="index2.xsl"?>
+<main>
+<atestation>
+   <studentname>
+   Резнов Павел
+   </studentname>
+   <group>
+   1
+   </group>
+   <mark>
+   6
+   </mark>
+</atestation>
+<atestation>
+   <studentname>
+   Петров Иван
+   </studentname>
+   <group>
+   6
+   </group>
+   <mark>
+   10    
+   </mark>
+</atestation>
+<atestation>
+   <studentname>
+   Краснов Михаил
+   </studentname>
+   <group>
+   8
+   </group>
+   <mark>
+   3
+   </mark>
+</atestation>
+<atestation>
+   <studentname>
+   Поволевич Алина
+   </studentname>
+   <group>
+   6
+   </group>
+   <mark>
+   4
+   </mark>
+</atestation>
+<atestation>
+   <studentname>
+   Митков Святослав
+   </studentname>
+   <group>
+   9
+   </group>
+   <mark>
+   2
+   </mark>
+</atestation>
+</main>

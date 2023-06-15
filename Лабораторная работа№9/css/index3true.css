@@ -1,0 +1,62 @@
+#block{
+    max-width: 50%;
+    max-height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "nav header header header"
+                         "nav article article aside"
+                         "footer footer footer footer";
+    grid-gap: 0.7em;
+}
+
+#block>nav{
+    background-color: burlywood;
+    grid-area: nav;
+
+}
+#block>header{
+    grid-area: header;
+    background-color: burlywood;
+}
+
+header>h1{
+    padding: 5px;
+}
+
+.article{
+    grid-area: article;
+    background-color: burlywood;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: burlywood;
+}
+
+#block>footer{
+    grid-area: footer;
+    background-color: burlywood;
+}
+ p, ul, a{
+     padding: 5px;
+     list-style: none;
+     text-decoration: none;
+ }
+
+ ul>li{
+     margin: 5px;
+ }
+
+ li>a{
+     color: black;
+ }
+
+ footer>p>a{
+     color: brown;
+     font-style: normal;
+     font-size: 20px;
+ }
+
+ p{
+     font-style: italic;
+ }

@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+
+#main, div{
+    border: 3px solid black;
+    margin: auto;
+}
+
+#main>div{
+    height: 400px;
+    width: 400px;
+}
+
+#box-1{
+    background-image: linear-gradient(to bottom, blue , red );
+}
+
+#box-2{
+    background-image: repeating-linear-gradient(45deg, blue 10px, red 20px);
+}
+
+#box-3{
+    background-image: radial-gradient(yellow, green);
+}
+
+#box-4{
+     background-image: repeating-radial-gradient(circle,green, green 5%, yellow 5%, yellow 10%);
+}
+
+#box-5{
+    background-image: radial-gradient(yellow , green 50%, darkgreen 60%, transparent 65%),linear-gradient(to bottom, blue, fuchsia);
+}
+
+#box-6{
+    background-image: linear-gradient(to right, yellow, green 50%, transparent ),linear-gradient(black, white 45%, white 60%, blue 70%, blue 80%, fuchsia 90%);
+}
+
+#box-7{
+    background-image: linear-gradient(cyan, transparent);
+}

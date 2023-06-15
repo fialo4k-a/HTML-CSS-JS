@@ -1,0 +1,173 @@
+.menu_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu{
+    border: 2px solid black;
+    max-width: 60%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+  
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+.menu_list>li>a{
+    background-color: burlywood;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.menu_list>li>ul>li{
+    background-color: chocolate;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 15px;
+}
+
+.sub-menu_list{
+    padding: 0px;
+}
+
+span{
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+@media(max-width:560px){
+.sub-menu_list{
+    display: none;
+}
+
+.menu_list>li:hover .sub-menu_list{
+    display: block;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.content{
+    border: 3px solid black;
+    margin: auto;
+    max-width: 50%;
+}
+
+.menu_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+.menu_list>div{
+    border-radius: 3%;
+}
+
+div>ul{
+    padding: 10px;
+    margin: 5px;
+}
+
+.box-1{
+    background-color: burlywood;
+    border: 1px solid grey;
+}
+
+.box-2{
+    background-color: coral;
+    border: 1px solid grey;
+
+}
+
+.box-3{
+    background-color:chocolate ;
+    border: 1px solid grey;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    margin: 5px;
+}
+
+.collection{
+    font-family: 'Courier New', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:560px){
+    ul{
+        display:none;
+    }
+
+
+}*/

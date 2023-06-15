@@ -1,0 +1,102 @@
+body{
+    background-image: linear-gradient(45deg,  antiquewhite, rgb(7, 80, 80));
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu li{
+    list-style: none;
+    position: relative;
+}
+
+.menu__list{
+    display: flex;
+}
+
+.menu__list>li{
+    margin-right: 100px;
+    background: yellow;
+    border: 1px solid black;
+    padding: 10px 100px 10px 5px;
+}
+
+.menu__list>li:hover .sub-menu__list{
+display: block;
+}
+
+.menu__link{
+    color: black;
+}
+
+.sub-menu__list{
+    position: absolute;
+    left: 0;
+    top: 35;
+    display: none;
+    margin-top:10px ;
+    padding-left: 0;
+    background-color: plum;
+    border: 3px dotted black;
+    
+}
+
+.sub-menu__list>li{
+    min-width: auto;
+    border-bottom: 3px dotted black;
+}
+
+.sub-menu__list>li:last-child{
+    min-width: auto;
+    border: none;
+}
+
+
+.sub-menu__link{
+    color: black;
+    padding-bottom:5px ;
+}
+/*--------------------------*/
+.nav1{
+    position: relative;
+    top: 100px;
+}
+
+
+.nav1 li{
+    float: left;
+    list-style-type: none;
+    
+    }
+    .nav1 a {
+    border: 1px solid black;
+    display: inline-block;
+    text-decoration: none;
+    }
+   .nav1 ul {
+    margin: auto;
+    margin-left: 300px;
+    }
+   .nav1 li a {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    color: black;
+    }
+    .nav1 a{
+    background: url(images/img0.png) no-repeat 0 0;
+    }
+    
+    .a2:hover {
+    background-position: 0px -40px;
+    }
+    .a3:hover {
+    background-position: 0px -80px;
+    
+    }
+    .a4:hover {
+    background-position: 0px -120px;
+    }
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>ARA</title>
+<style>
+div {
+display: inline-block;
+margin-left: 400px;
+}
+.first {
+border: 3px solid black;
+width: 400px;
+height: 400px;
+padding: 5px 10px 5px 10px;
+background-color: yellow;
+}
+p {
+font-size: 30px;
+text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div class="first">
+<p>Фамилия: <span id="family"></span></p>
+<p>Имя: <span id="name"></span></p>
+<p>Отчество: <span id="father"></span></p>
+<p>Возраст: <span id="age"></span></p>
+<p>Дата рождения: <span id="dob"></span></p>
+</div>
+<script>
+txt = "<student>";
+txt = txt + "<name>Сергей</name>";
+txt = txt + "<family>Мильчанин</family>";
+txt = txt + "<father>Олегович</father>";
+txt = txt + "<age>17 лет</age>";
+txt = txt + "<dob>03.06.2004</dob>";
+txt = txt + "<student>";
+if (window.DOMParser)
+{
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(txt, "text/xml")
+}
+else
+{
+xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async = false;
+xmlDoc.loadXML(txt);
+}
+document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")
+[0].childNodes[0].nodeValue;
+document.getElementById("family").innerHTML = xmlDoc.getElementsByTagName("family")
+[0].childNodes[0].nodeValue;
+document.getElementById("father").innerHTML = xmlDoc.getElementsByTagName("father")
+[0].childNodes[0].nodeValue;
+document.getElementById("age").innerHTML = xmlDoc.getElementsByTagName("age")
+[0].childNodes[0].nodeValue;
+document.getElementById("dob").innerHTML = xmlDoc.getElementsByTagName("dob")
+[0].childNodes[0].nodeValue;
+</script>
+</body>
+
+</html>

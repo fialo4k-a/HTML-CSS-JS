@@ -1,0 +1,38 @@
+ table{
+     margin: auto;
+     border-spacing: 0px;
+ }
+ 
+ td, tr{
+     border: 2px  solid grey;
+ }
+ 
+ #ind{
+    font-size: 1.2em;
+}
+
+table:first-child{
+    empty-cells: hide;
+}
+
+.tr1{
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+}
+
+.roll1{
+background-color: lightskyblue;
+}
+
+.roll2{
+background-color: purple;
+}
+
+.roll3{
+    background-color: green;
+}
+
+table #ind{
+    max-width: 640px;;
+}

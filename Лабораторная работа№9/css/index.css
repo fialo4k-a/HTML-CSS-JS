@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(231,188,60,1) 60%, rgba(253,187,45,1) 100%);
+}
+
+.content{
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+}
+
+ .content h1{
+    grid-column: 1/4;
+    background: linear-gradient(45deg, rgba(255,252,0,1) 0%, rgba(13,25,230,1) 50%, rgba(44,215,9,1) 100%);
+    text-align: center;
+}
+
+.content>div{
+    background: linear-gradient(45deg, rgba(34,75,195,1) 0%, rgba(222,230,13,1) 50%, rgba(44,215,9,1) 100%);
+    text-align: center;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+span{
+    font-size: 25px;
+    font-family: 'Times New Roman', sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+/*--------------*/
+
+.content-second{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 5%;
+    position: relative;
+    top: 200px;
+}
+
+.content-second>div{
+    background: linear-gradient(45deg, rgba(34,75,195,1) 0%, rgba(222,230,13,1) 50%, rgba(44,215,9,1) 100%);
+    text-align: center;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 10px;
+}
+
+.content-second h1{
+    background: linear-gradient(45deg, rgba(255,252,0,1) 0%, rgba(13,25,230,1) 50%, rgba(44,215,9,1) 100%);
+    text-align: center;
+    margin-top:0 ;
+    margin-bottom: 10px;
+}
+
+#first{
+    display: inline-block;
+}
+/*-------------------*/
+#second{
+    display: inline-block;
+}
+
+.content-third{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr
+    
+}
+
+.box1{
+    grid-row:1/3;
+}

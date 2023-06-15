@@ -1,0 +1,92 @@
+body{
+    background-color: lightgreen;
+}
+
+#header .first{
+    display: inline-block;
+}
+
+#header{
+    margin-top: 10px;
+}
+
+.first{
+    font-size: 60px;
+    font-family: 'Times New Roman', sans-serif;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+#one{
+    border: 9px outset rgb(255, 0, 0);
+}
+
+#two{
+    border:9px dashed rgb(18, 190, 18) ;
+}
+
+#three{
+ border: 9px dotted rgb(0, 0, 255);
+}
+
+#four{
+    border: 9px double rgb(135, 206, 235);
+}
+
+#five{
+    border: 9px groove rgb(255, 192, 203);
+}
+
+#six{
+    border: 9px inset rgb(255, 255, 0);
+}
+
+#seven{
+    border: 9px solid rgb(0, 0, 0);
+}
+
+.inp{
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid #FF4500;
+    background-color: #FFA500;
+}
+
+#frstp{
+    margin: auto;
+    border: 3px solid #FF7F50;
+    width: 400px;
+}
+
+#scndp{
+    color: mediumblue;
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    padding: 10px;
+    overflow: auto;
+    box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5) ;
+}
+
+#thrp{
+    border: 5px solid #FF6347;
+}
+
+.first span{
+    font-size: 10px;
+    padding: 0px 5px 0px 5px;
+}
+
+.last{
+    display: block;
+    margin: auto;
+}
+
+.last:focus{
+background-color:green;
+color: pink ;
+}

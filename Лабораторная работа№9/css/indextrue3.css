@@ -1,0 +1,51 @@
+.content{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: auto;
+}
+
+.content>div{
+    background: chocolate;
+}
+
+.box-1{
+    grid-row: 1/4;
+}
+
+.box-2{
+    grid-column: 2/5;
+}
+
+.box-3{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.box-4{
+    grid-row: 2/4;
+}
+
+.box-5{
+    grid-column: 1/5;
+}
+
+.menu>ul>li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Times New Roman', sans-serif;
+    font-style: italic;
+}

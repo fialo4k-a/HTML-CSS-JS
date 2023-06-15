@@ -1,0 +1,375 @@
+body{
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    background-repeat: no-repeat;
+}
+
+#nav{
+ max-width: 30%;
+ max-height: 100%;
+ position: fixed;
+ left:0;
+ top: 0;
+ border: 3px solid red;  
+ float: left;
+ z-index: 2; 
+
+}
+
+ul{
+list-style-type: none;
+}
+
+li{
+    margin-right: 30px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+#href-one:link{
+color: red;
+}
+
+#hrerf-two:visited{
+    color: #8B0000;
+}
+
+#href-three:hover{
+    color: green;
+}
+
+#href-four:active{
+color:rgb(184, 134, 11);
+}
+
+#main{
+    border-bottom: 3px dotted black;
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+#main>div>img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20%;
+
+}
+
+#main>div{
+    margin: 30px;
+    display: inline;
+}
+
+#box-one img:hover{
+transform: scale(0.5);
+}
+
+#box-two img:hover{
+    transform: rotate(45deg);
+}
+
+#box-three img:hover{
+    transform: translate(50px);
+}
+
+#box-four img:hover{
+    transform: skew(-20deg);
+}
+
+#content-perspective{
+    margin-top: 50px;
+    perspective: 400px;
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+#perspective-one{
+    transform: rotateX(10deg);
+    transform-origin: center;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+#perspective-two{
+    transform: rotateY(10deg);
+    transform-origin: center;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+#perspective-three{
+    transform: rotateX(10deg);
+    transform-origin: center;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+#perspective-four{
+    transform: rotateY(-10deg);
+    transform-origin: center;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+#content-text{
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    color: yellow;
+    font-size:18px;
+    transition-duration: 20s;
+    transition-timing-function: linear;
+    transition-property: color;
+    margin: 0px auto;
+}
+
+#content-text:hover{
+    color: red;
+}
+
+@keyframes picture{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 50%;
+    } 
+    100%{
+        opacity: 100%;
+    }
+}
+
+#animation-picture-one{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    animation-name: picture;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    border: 2px solid red;
+    opacity: 0;
+}
+
+#animation-picture-two{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    animation-name: picture;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    border: 2px solid red;
+    opacity: 0;
+}
+
+#animation-picture-three{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    animation-name: picture;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    border: 2px solid red;
+    opacity: 0;
+}
+
+#animation-picture-four{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    animation-name: picture;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    border: 2px solid red;
+    opacity: 0;
+}
+
+#animation-picture-five{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    animation-name: picture;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    border: 2px solid red;
+    opacity: 0;
+}
+
+#level-five img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    border: 1px solid red;
+}
+
+#one{
+position: relative;
+left: 0; 
+animation-name: picture-firt-five;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: reverse; 
+}
+
+@keyframes picture-firt-five{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    100%{
+        top: 0px;
+        left:200px;
+    }
+}
+
+#two{
+    position: relative;
+    left: 500px;
+    top: 200px;
+    animation-name: picture-second-five;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; 
+}
+
+@keyframes picture-second-five{
+    0%{
+        left:200px;
+        top: 200px;
+    }
+    100%{
+        left: 200px;
+        top: 0px;
+    }
+}
+
+#three{
+    position: relative;
+    top: 500px;
+    left: 0px;
+    animation-name: picture-three-five;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; 
+}
+
+@keyframes picture-three-five{
+    0%{
+        left: 400px;
+        top: 200px;
+    }
+   50%{
+       left: 100px;
+       top: 200px;
+   }
+   100%{
+       left: 100px;
+       top: 100px;
+   }
+}
+
+#four{
+    position: relative;
+    left: 700px;
+    top: 0px;
+    animation-name: picture-four-five;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes picture-four-five{
+    0%{
+        left: 700px;
+        top: 0px;
+    }
+    25%{
+        left: 350px;
+        top: 0px;
+    }
+    50%{
+        left: 350px;
+        top: 350px;
+    }
+    75%{
+        left: 700px;
+        top: 350px;
+    }
+    100%{
+        left: 700px;
+        top: 0px;
+    }
+}
+
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+#last{
+    height: 500px;
+}
+
+#content-hrefs{
+    max-width: 700px;
+    position:relative;
+    left: 800px;
+}
+ table{
+    border-collapse: collapse;
+ }
+
+tr, td{
+    border: 1px solid black;
+    background: yellow;
+}
+
+ td a{
+    color: green;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/*.content-hrefs__list>li{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    margin: 0;
+    background-color: yellow;
+
+}
+
+.content-hrefs__link>a{
+    text-decoration: none;
+    color: green;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;*/
+    
+}
+
+
+
+
+

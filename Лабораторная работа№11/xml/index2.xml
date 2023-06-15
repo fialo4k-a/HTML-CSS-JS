@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/index2.css"?>
+
+<!DOCTYPE contact [
+
+<!ELEMENT contact (name, surname, country, city, address, post, age )>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ENTITY country "Russia">
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT post (#PCDATA)>
+<!ENTITY age "35">
+]>
+
+
+<contact>
+    <name>Petr</name>
+    <surname>Ivanov</surname>
+    <element>&country;</element>
+    <city>Moscow</city>
+    <address>Krasnopresnenskaya emb., 12-17</address>
+    <post>frontend-developer</post>
+    <element>&age;</element>
+</contact>
